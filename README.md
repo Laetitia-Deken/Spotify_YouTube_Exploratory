@@ -14,15 +14,15 @@ Which artists and albums are the most popular on these two platforms?
 
 ## Project highlights
 
-📌 Data Preparation: Rigorously cleaned and prepared the dataset, ensuring data quality and integrity for robust analysis.
+📌 **Data Preparation:** Rigorously cleaned and prepared the dataset, ensuring data quality and integrity for robust analysis.
 
-📌 Initial Exploration: Engaged in initial data exploration during EDA to gain a deep understanding of variables and distributions.
+📌 **Initial Exploration:** Engaged in initial data exploration during EDA to gain a deep understanding of variables and distributions.
 
-📌 Data Cleaning: Employed advanced data cleaning techniques to handle missing values, outliers, and inconsistencies, ensuring accuracy in analysis.
+📌 **Data Cleaning:** Employed advanced data cleaning techniques to handle missing values, outliers, and inconsistencies, ensuring accuracy in analysis.
 
-📌 Data Visualization: Utilized Matplotlib and Seaborn to create compelling visualizations, revealing hidden trends in Spotify and YouTube data.
+📌 **Data Visualization:** Utilized Matplotlib and Seaborn to create compelling visualizations, revealing hidden trends in Spotify and YouTube data.
 
-📌 Meaningful Conclusions: Derived insights to shed light on artist popularity, likes, views, streams, album types, and correlations between variables.
+📌 **Meaningful Conclusions:** Derived insights to shed light on artist popularity, likes, views, streams, album types, and correlations between variables.
 
 ## Insights
 
@@ -52,10 +52,9 @@ The Spotify and YouTube Data Analysis project provides valuable insights into mu
 
 📌Likes and Comments: "Album Vida" received the highest number of likes, accumulating 120 million likes. Additionally, it stood out as the most commented album, indicating strong engagement and positive feedback from users. These findings suggest that "Album Vida" has resonated well with the audience and has generated significant user interaction.
 
-Speechiness and Instrumentalness: A correlation was observed between speechiness and tempo, where songs with faster tempos exhibited a higher level of speechiness. Furthermore, songs with higher speechiness tended to have a lower level of instrumentalness. This implies that genres or styles emphasizing vocal delivery, such as spoken word or rap, tend to have faster tempos and lower emphasis on instrumental elements.
+📌Speechiness and Instrumentalness: A correlation was observed between speechiness and tempo, where songs with faster tempos exhibited a higher level of speechiness. Furthermore, songs with higher speechiness tended to have a lower level of instrumentalness. This implies that genres or styles emphasizing vocal delivery, such as spoken word or rap, tend to have faster tempos and lower emphasis on instrumental elements.
 
-Conducted Data Analysis with Python: Leveraged Python libraries including Pandas, NumPy, Matplotlib, and Seaborn to perform comprehensive data analysis tasks.
-Created a visually compelling Power BI dashboard utilizing various visualizations such as bar charts, bubble charts, and other relevant visuals.
+📌Conducted Data Analysis with Python: Leveraged Python libraries including Pandas, NumPy, Matplotlib, and Seaborn to perform comprehensive data analysis tasks.
 Derived Insights and Conclusions: Synthesized findings from the analysis by utilizing a database, and generated meaningful insights and conclusions. These insights contributed to informed decision-making and provided valuable recommendations based on the analyzed data
 In conclusion, the Spotify and YouTube Data Analysis project provides valuable insights into artist popularity, album preferences, user engagement, and musical characteristics. These insights can be leveraged by music streaming platforms, artists, and marketing teams to make informed decisions regarding content promotion, audience targeting, and playlist curation.
 
