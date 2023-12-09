@@ -6,11 +6,11 @@
 
 Link to the Dataset : https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube
 
-Link to my Looker Studio : https://lookerstudio.google.com/u/0/reporting/1ea39cb5-11a5-45d9-97cb-44bf5ced25ee/page/z3DXD/edit
+Link to my Dashboard in Looker Studio : https://lookerstudio.google.com/u/0/reporting/1ea39cb5-11a5-45d9-97cb-44bf5ced25ee/page/z3DXD/edit
 
 ## Content
 
-It includes 26 variables for each of the songs collected from spotify. These variables are briefly described next:
+It includes 26 variables for each of the songs collected from Spotify. These variables are briefly described next:
 
 - Track: name of the song, as visible on the Spotify platform.
 - Artist: name of the artist.
