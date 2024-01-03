@@ -1,4 +1,4 @@
-# Spotify YouTube Exploratory (In French - Data available at February 7, 2023)
+# Spotify YouTube Exploratory (In French - February 2023)
 
 ![Spotify YouTube Exploratory](spotify_youtube.jpg "Spotify YouTube Exploratory")
 
@@ -46,6 +46,8 @@ Welcome to my Spotify and YouTube Data Analysis project!
 
 The purpose of this analysis is to reveal important information about data from two famous music streaming platforms: Spotify and YouTube.
 
+**Data available at February 7, 2023.**
+
 Using exploratory data analysis, let's discover together sometimes unexpected relationships between views, likes, comments and many other variables to display music trends!
 
 Which artists and albums are the most popular on these two platforms? 
@@ -66,17 +68,23 @@ Which artists and albums are the most popular on these two platforms?
 
 From the Spotify and YouTube Exploratory Data Analysis, several intriguing insights emerged:
 
-📌 The artist "Macklemore & Ryan Lewis" garnered a remarkable 10.23 billion views, securing the top spot. "Justin Bieber" followed closely with 10.12 billion views, while "BTS" held third place with 10 billion views.
+📌 Ed Sheeran, CoComelon and Katy Perry are the three artists (in order) with the most views.
 
-📌 "BTS" emerged as the most liked artist, amassing an impressive 14 million likes. "Blackpink" secured the second position in likes. In terms of streams, "Post Malone" led with 1.2 billion streams, closely followed by "Ed Sheeran" with 1.74 billion streams.
+📌 BTS emerged as the most liked artist, amassing an impressive 140 million likes. Blackpink secured the second position. In terms of streams, Post Malone led with 1.52 billion streams, closely followed by Ed Sheeran with 1.43 billion streams. BTS is also the artist with the most comments (40 million). Note: Ed Sheeran is the artist with the most views but not with the most likes or comments.
 
-📌 The dominant album type was "Album," accounting for 75% of the data, surpassing compilations and singles.
+📌 Despacito by Luis Fonsi, released in January 12, 2017, is the most popular track in YouTube in terms of views, likes and comments, but not in streams in Spotify! *Billboard's* critics ranked the original version the fourth best song of 2017 and the fifth best Latin song of all-time, referring to it as *"one of the biggest hits in Latin music history"* and *"one of the biggest singles of all-time."*. Despacito's official music video became the fastest YouTube video to reach 2 billion views on June 24, 2017, only 163 days after its release (Wikipedia). Note: the most viewed tracks on YouTube are not necessarily the same as the most popular streams on Spotify. Interesting and logical at the same time : the algorithm is not the same in these platforms...
 
-📌 The album "Album Vida" garnered the highest number of likes at 120 million. "See You Again" and "The Heist" followed with 80 million and 74 million likes, respectively.
+📌 The dominant album type was "Album" accounting for 72% of the data (1/3), surpassing so far compilations and singles.
 
-📌 "Album BE" stood out as the most commented album, along with "Map of the Soul." Interestingly, a higher number of comments correlated with lesser-known albums. However, "Vida" defied this trend, accumulating higher likes and comments, signalling a positive response.
+📌 The album "Vida" by Luis Fonsi (Despacito) garnered the highest number of views AND likes at 124 million. "See You Again" and "The Heist" followed with 80 million and 75 million likes, respectively. Note : the three albums are the most views and likes, in the same order. But that is not true for the albums with the most comments and streams...
 
-📌 A correlation existed between speechiness and tempo, with faster tempos typically associated with higher speechiness.
+📌 The album "Be" by BTS (Dynamite) stood out as the most commented album, along with "Map of the Soul". Interestingly, a higher number of comments correlated with lesser-known albums. However, "Vida" defied this trend, accumulating higher likes AND comments as highlighted above, signalling a positive response...
+
+📌 T-Series (India's larges Music Label & Movie Studio) is the most popular channel on YouTube, except in comments (the first place is occupied by Hybe Labels). Calvin Harris is the most streamed channel. There are many VEVO channels in this ranking. Luis Fonsi is second, far behind the T-Series.
+
+📌 A very postive correlation existed between energy and loudness (0,75) and a very negative correlation existed between acousticness and energy (-0,66) and loudness (-0,55). Valence and danceability are positively correlated too (0,47). A energy increases, so does volume. Acoustics tend to decrease as sound intensity increases.
+
+📌 Danceability correlations is not that high as expected.
 
 📌 Songs with higher speeches often displayed lower instrumentals, indicating an emphasis on lyrics and vocal delivery, as seen in spoken word or rap genres.
 
@@ -84,15 +92,16 @@ From the Spotify and YouTube Exploratory Data Analysis, several intriguing insig
 
 The Spotify and YouTube Data Analysis project provides valuable insights into music streaming trends and artist performance. Based on the analysis of the provided data, the following conclusions can be drawn:
 
-📌Artist Popularity: "Macklemore & Ryan Lewis" emerged as the most viewed artist, amassing a staggering 10.23 billion views. "BTS" secured the highest number of likes with 14 million likes. "Post Malone" claimed the top position in terms of streams with 1.2 billion streams. These findings highlight the popularity and influence of these artists in the music streaming landscape.
+📌 Artist Popularity: These findings highlight the popularity and influence of these artists in the music streaming landscape.
 
-📌Album Types: The majority of the data (75%) corresponds to the "Album" type, indicating that albums are the preferred form of music consumption among users. This insight can guide music platforms and artists in prioritizing album releases and promotional efforts to cater to user preferences.
+📌 Album Types: The majority of the data (72%) corresponds to the "Album" type, indicating that albums are the preferred form of music consumption among users. This insight can guide music platforms and artists in prioritizing album releases and promotional efforts to cater to user preferences.
 
-📌Likes and Comments: "Album Vida" received the highest number of likes, accumulating 120 million likes. Additionally, it stood out as the most commented album, indicating strong engagement and positive feedback from users. These findings suggest that "Album Vida" has resonated well with the audience and has generated significant user interaction.
+📌 Likes and Comments: Album "Vida" received the highest number of likes, accumulating 120 million likes. Additionally, it stood out as the most commented album, indicating strong engagement and positive feedback from users. These findings suggest that "Vida" has resonated well with the audience and has generated significant user interaction.
 
-📌Speechiness and Instrumentalness: A correlation was observed between speechiness and tempo, where songs with faster tempos exhibited a higher level of speechiness. Furthermore, songs with higher speechiness tended to have a lower level of instrumentalness. This implies that genres or styles emphasizing vocal delivery, such as spoken word or rap, tend to have faster tempos and lower emphasis on instrumental elements.
+📌 Speechiness and Instrumentalness: A correlation was observed between speechiness and tempo, where songs with faster tempos exhibited a higher level of speechiness. Furthermore, songs with higher speechiness tended to have a lower level of instrumentalness. This implies that genres or styles emphasizing vocal delivery, such as spoken word or rap, tend to have faster tempos and lower emphasis on instrumental elements.
 
 📌Conducted Data Analysis with Python: Leveraged Python libraries including Pandas, NumPy, Matplotlib, and Seaborn to perform comprehensive data analysis tasks.
-Derived Insights and Conclusions: Synthesized findings from the analysis by utilizing a database, and generated meaningful insights and conclusions. These insights contributed to informed decision-making and provided valuable recommendations based on the analyzed data
+Derived Insights and Conclusions: Synthesized findings from the analysis by utilizing a database, and generated meaningful insights and conclusions. These insights contributed to informed decision-making and provided valuable recommendations based on the analyzed data.
+
 In conclusion, the Spotify and YouTube Data Analysis project provides valuable insights into artist popularity, album preferences, user engagement, and musical characteristics. These insights can be leveraged by music streaming platforms, artists, and marketing teams to make informed decisions regarding content promotion, audience targeting, and playlist curation.
 
